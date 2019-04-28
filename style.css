@@ -1,0 +1,77 @@
+myborder{
+    border: 10px solid gray;
+}
+
+body{
+    background: lightgrey;
+}
+
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size:  30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: rgb(56, 155, 145)
+}
+
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size:  20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: rgb(56, 155, 145)
+}
+
+.navbar {
+  padding: 10px;
+  background: white;
+  }
+
+.box {
+  padding: 30px;
+  color: grey;
+  background: white;
+}
+
+.space{
+  padding-top: 5%; 
+  padding-bottom: 5%;
+}
+
+.turquoise-white {
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  background: rgb(56, 155, 145);
+  font-size:  30px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.custom-thumbnail{
+  padding: 10px;
+  border: 10px;
+}
+  
+#main-bio {
+  width: 95%;
+  float: left;
+}
+  
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  float: left;
+}
+
+  /* Here we define some styles that will ONLY be applied at screen sizes below 576 pixels */
+@media (max-width: 576px) {
+  .navbar {
+    background: rgb(56, 155, 145);
+  } 
+
+
+}
